@@ -13,3 +13,10 @@ This project is a Unity-based game that showcases my learning journey in AI usin
 <br/>
 Video Link: 
 https://www.youtube.com/watch?v=6KKvphn_3h8&t
+<object width="425" height="350">
+  <param name="movie" value="http://www.youtube.com/user/wwwLoveWatercom?v=BTRN1YETpyg" />
+  <param name="wmode" value="transparent" />
+  <embed src="https://www.youtube.com/watch?v=6KKvphn_3h8&t"
+         type="application/x-shockwave-flash"
+         wmode="transparent" width="425" height="350" />
+</object>
