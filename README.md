@@ -2,17 +2,24 @@
 ![alt text](https://github.com/RayanYousef/Camera-Free-Minimap/blob/main/Other/Camera%20Free%20Minimap%20.png?raw=true)
 <br/>
 
-This project is a Unity-based game that showcases my learning journey in AI using Finite State Machines and Nav Mesh Agents. The game features an enemy NPC that can chase the player using pathfinding, and the enemy NPC's behavior is controlled using a Finite State Machine.
+"Camera Free Minimap" is a free Unity asset designed to simplify the creation of dynamic
+and camera-independent minimaps. Say goodbye to the complexities of setting up a second
+camera or manually updating your minimap. With "Camera Free Minimap," you can
+effortlessly integrate your minimap images, player icons, and camera FOV, leaving the asset
+to handle the rest for you
 
 **Features:**
 
--   Implementation of AI using Finite State Machines and Nav Mesh Agents.
--   Enemy NPC that can chase the player using pathfinding and attacks the player when in range.
--   The enemy NPC's behavior is controlled using a Finite State Machine.
--   2X button that increases the speed of the game by 2x.
+ Camera Independence: No need for a second camera setup, ensuring a lightweight
+and performance-optimized solution.
+- Image-Based Rendering: Use custom minimap images and player icons for
+creative freedom in your game world.
+- Automatic Updates: The minimap dynamically reflects player movements and
+camera FOV in real-time gameplay.
+- User-Friendly Setup: Seamlessly and intuitively set up with minimal configuration
+for developers of all levels.
+- Customizable Icons: Tailor player and camera FOV icons to match your game's
+style and convey crucial information effectively
 <br/>
 Video Link: 
 https://www.youtube.com/watch?v=6KKvphn_3h8&t
-
-
-[![Everything Is AWESOME](https://i.stack.imgur.com/q3ceS.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
