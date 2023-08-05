@@ -12,4 +12,4 @@ This project is a Unity-based game that showcases my learning journey in AI usin
 -   2X button that increases the speed of the game by 2x.
 <br/>
 Video Link: 
-https://drive.google.com/file/d/1q0w_bmmjW5J7qPXGVNZd8u2ZCAP37Sfj/view?usp=share_link
+https://www.youtube.com/watch?v=6KKvphn_3h8&t
