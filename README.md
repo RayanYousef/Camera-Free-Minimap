@@ -13,4 +13,6 @@ This project is a Unity-based game that showcases my learning journey in AI usin
 <br/>
 Video Link: 
 https://www.youtube.com/watch?v=6KKvphn_3h8&t
-[![IMAGE ALT TEXT](https://github.com/RayanYousef/Camera-Free-Minimap/blob/main/Other/Camera%20Free%20Minimap%20.png?raw=true)](https://www.youtube.com/watch?v=6KKvphn_3h8&t)
+
+
+[![Everything Is AWESOME](https://i.stack.imgur.com/q3ceS.png)](https://youtu.be/StTqXEQ2l-Y?t=35s "Everything Is AWESOME")
