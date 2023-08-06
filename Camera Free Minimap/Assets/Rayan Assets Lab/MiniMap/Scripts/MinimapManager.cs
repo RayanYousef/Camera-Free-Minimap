@@ -137,6 +137,7 @@ namespace CameraFreeMinimap
         #endregion
 
 #if UNITY_EDITOR
+        //[ExecuteInEditMode]
         public void UpdateInEditorMode()
         {
             bool canUpdateInEditor = playerTransformInWorld != null && playerIconInMinimap != null;
