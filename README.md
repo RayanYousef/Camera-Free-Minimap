@@ -1,5 +1,5 @@
 # Camera Free Minimap (Unity)
-![alt text](https://github.com/RayanYousef/Camera-Free-Minimap/blob/main/Other/Camera%20Free%20Minimap%20.png?raw=true)
+![alt text](https://github.com/RayanYousef/Camera-Free-Minimap/blob/main/Misc/Camera%20Free%20Minimap%20.png?raw=true)
 <br/>
 
 "Camera Free Minimap" is a free Unity asset designed to simplify the creation of dynamic
@@ -23,3 +23,5 @@ style and convey crucial information effectively
 <br/>
 Video Link: 
 https://www.youtube.com/watch?v=6KKvphn_3h8&t
+
+**Feel free to utilize the asset and customize the code to perfectly align with your specific requirements.** 
