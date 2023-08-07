@@ -16,7 +16,7 @@ Camera Free Minimap utilizes a GameObject with sprite renderer in the world that
 -	Avoid scaling the minimap or its holder as it can interfere with the calculations, leading to incorrect player icon positions on the minimap, to change the size, you can change the width and the height of the Rect Transform.
 -	The current version is optimized for Canvas with a Canvas Scaler set to "Scale With Screen Size" and "Constant Pixel Size." It won't function correctly with the "Constant Physical Size" mode.
 
-##Limitations and Future Plans: 
+## Limitations and Future Plans: 
 **Current Version Limitations:**<br/>
 -	The current version of the minimap is static and best suited for dungeons, mazes, RPG maps, and other static environments. It is not designed for games where the camera moves with the player. To enable dynamic movement, modifications to the code are necessary. 
 -	Expanding the elements on the minimap must be done manually, as the present version supports only the player in the "Minimap Manager."
