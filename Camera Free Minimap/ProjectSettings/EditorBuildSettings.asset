@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Rayan Assets Lab/MiniMap/Scenes/Demo Scene (Built-in RP).unity
+    guid: 05fbdd62d7bd10e4c907d385356dd217
   m_configObjects: {}
