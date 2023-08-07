@@ -1,4 +1,4 @@
-# Camera Free Minimap (Unity)
+# Camera Free Minimap (Unity Asset)
 ![alt text](https://github.com/RayanYousef/Camera-Free-Minimap/blob/main/Misc/Camera%20Free%20Minimap%20.png?raw=true)
 <br/>
 
