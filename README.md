@@ -60,7 +60,9 @@ correctly.
 ### Calculating World Dimensions: 
 The "World Map" now possesses the ability to 
 calculate the size of your world along the X and Z axes. This information becomes 
-essential for determining the position of various elements within the minimap.<br/>
+essential for determining the position of various elements within the minimap.
+### Calculating Minimap Dimensions: 
+Using the corners of any UI elements you can determine its dimensions, with that we can calculate the dimensions of the minimap in the UI.<br/>
 Knowing the world dimensions and the minimap dimensions the minimap now can determine the position of its elements!
 
 
