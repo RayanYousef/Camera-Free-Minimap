@@ -2,45 +2,67 @@
 ![alt text](https://github.com/RayanYousef/Camera-Free-Minimap/blob/main/Misc/Camera%20Free%20Minimap%20.png?raw=true)
 <br/>
 
-"Camera Free Minimap" is a free Unity asset designed to simplify the creation of dynamic
-and camera-independent minimaps. Say goodbye to the complexities of setting up a second
-camera or manually updating your minimap. With "Camera Free Minimap," you can
-effortlessly integrate your minimap images, player icons, and camera FOV, leaving the asset
-to handle the rest for you
+## Description
+"Camera Free Minimap" is a free Unity asset designed to simplify the creation of 
+dynamic and camera-independent minimaps. Say goodbye to the complexities 
+of setting up a second camera or manually updating your minimap. With 
+"Camera Free Minimap," you can effortlessly integrate your minimap images.
 
-## How does it work?
-Camera Free Minimap utilizes a GameObject with sprite renderer in the world that should perfectly align with your world's environment. This sprite renderer helps capture the X and Z coordinates, representing the minimum and maximum boundaries of your world. By calculating the world's size and tracking the player's position, Camera Free Minimap effectively maps the player's location on the minimap, so make sure to align the sprite renderer with your environment perfectly as it is crucial. 
-(The "Minimap Manager" acts as the sprite renderer, although you can choose any other gameObject for this purpose, it's essential to assign its reference to the Minimap Manager.)
+## KEY FEATURE:
+### Single Camera Usage: 
+The Camera Free Minimap asset allows you to create a 
+minimap without the need for a second camera. This feature is essential for 
+improving performance in your Unity projects, as it eliminates the overhead 
+associated with rendering a secondary camera view.
+### Ease of Setup: 
+Setting up the Camera Free Minimap is straightforward and userfriendly. You can quickly integrate it into your project, making it accessible for 
+developers of all skill levels.
+In-Depth Script Comments: The included scripts are well-documented with 
+detailed comments. This makes it easier for developers to understand and 
+customize the minimap behavior according to their project requirements.
+### Two Variants: 
+This asset provides two distinct minimap variants:
+<br/>• Follow Target Minimap:<br/> You can create a dynamic minimap that follows a 
+specific object that you specify. This is valuable for games where you want 
+the minimap to focus on a moving character or object.
+<br/>• Static Minimap:<br/> Alternatively, you can use the static minimap version for 
+games that don't require dynamic minimap tracking. This mode offers a 
+fixed overview of the game world.
 
-## IMPORTANT:
--	Avoid scaling the minimap or its holder as it can interfere with the calculations, leading to incorrect player icon positions on the minimap, to change the size, you can change the width and the height of the Rect Transform.
--	The current version is optimized for Canvas with a Canvas Scaler set to "Scale With Screen Size" and "Constant Pixel Size." It won't function correctly with the "Constant Physical Size" mode.
+## HOW DOES IT WORK?
+Camera Free Minimap simplifies the process of creating a minimap for your Unity 
+project. To understand how it operates, let's break it down into key steps:
+### World Size Determination: 
+Camera Free Minimap requires knowledge of your 
+game world's dimensions. This means it needs to know the minimum and 
+maximum X and Z coordinates of your world.
+### Utilizing the "World Map" Prefab: 
+The asset relies on a specific prefab called 
+"World Map," which can be found in the prefab folders. This prefab plays a crucial 
+role in generating the minimap.
+### Establishing a Connection with the Minimap Image: 
+The "World Map" prefab 
+needs a reference to your minimap image. The minimap image typically resides 
+within the Canvas hierarchy. This connection is vital for the minimap generation 
+process.
+### Mapping the Minimap Image to "World Map": 
+Once linked, the "World Map" 
+extracts the sprite from your minimap image. It attaches this sprite to itself using 
+a Sprite Renderer component.
+### Projection of the Minimap in the World: 
+As a result of this action, your minimap 
+image becomes a visual representation projected into the game world.
+### Alignment with the Game World: 
+To ensure the minimap matches your game's 
+environment, you need to align the "World Map" with your world's structures and 
+layout. This alignment ensures that the minimap reflects the in-game world 
+correctly.
+### Calculating World Dimensions: 
+The "World Map" now possesses the ability to 
+calculate the size of your world along the X and Z axes. This information becomes 
+essential for determining the position of various elements within the minimap.
 
-## Limitations and Future Plans: 
-**Current Version Limitations:**<br/>
--	The current version of the minimap is static and best suited for dungeons, mazes, RPG maps, and other static environments. It is not designed for games where the camera moves with the player. To enable dynamic movement, modifications to the code are necessary. 
--	Expanding the elements on the minimap must be done manually, as the present version supports only the player in the "Minimap Manager."
-**Future Plans:** <br/>
--	Creating a dynamic version of the minimap that moves along with the player, revealing more of the world map as they explore. 
--	I aim to enhance the minimap's functionality by allowing the addition of more UI elements beyond the player representation. 
--	I am working on implementing a zoom in and out feature for better map navigation and exploration.
 
 
 
-## Features:
-
- Camera Independence: No need for a second camera setup, ensuring a lightweight
-and performance-optimized solution.
-- Image-Based Rendering: Use custom minimap images and player icons for
-creative freedom in your game world.
-- Automatic Updates: The minimap dynamically reflects player movements and
-camera FOV in real-time gameplay.
-- User-Friendly Setup: Seamlessly and intuitively set up with minimal configuration
-for developers of all levels.
-- Customizable Icons: Tailor player and camera FOV icons to match your game's
-style and convey crucial information effectively
-<br/>
-Video Link: 
-https://www.youtube.com/watch?v=6KKvphn_3h8&t
-
-# Feel free to utilize the asset and customize the code to perfectly align with your specific requirements.
+## Feel free to utilize the asset and customize the code to perfectly align with your specific requirements.
