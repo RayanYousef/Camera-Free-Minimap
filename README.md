@@ -15,7 +15,7 @@ minimap without the need for a second camera. This feature is essential for
 improving performance in your Unity projects, as it eliminates the overhead 
 associated with rendering a secondary camera view.
 ### Ease of Setup: 
-Setting up the Camera Free Minimap is straightforward and userfriendly. You can quickly integrate it into your project, making it accessible for 
+Setting up the Camera Free Minimap is straightforward and user friendly. You can quickly integrate it into your project, making it accessible for 
 developers of all skill levels.
 In-Depth Script Comments: The included scripts are well-documented with 
 detailed comments. This makes it easier for developers to understand and 
