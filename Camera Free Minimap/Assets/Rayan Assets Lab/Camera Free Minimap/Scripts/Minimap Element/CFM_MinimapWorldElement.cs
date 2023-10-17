@@ -131,15 +131,18 @@ namespace CameraFreeMinimap
                 else
                     DestroyImmediate(minimapCanvasTransform.gameObject);
 #else
-            if (canvasTransform != null)
-                    Destroy(canvasTransform.gameObject);
+            if (minimapCanvasTransform != null)
+                    Destroy(minimapCanvasTransform.gameObject);
 #endif
         }
 
         private void FixedUpdate()
         {
-            if (!isStaticElement)
-                UpdateElementTransformOnMinimap();
+            if (isStaticElement) return;
+
+            UpdateElementSize();
+            UpdateElementTransformOnMinimap();
+
 #if UNITY_EDITOR
             UpdateElementSprite();
             UpdateElementColour();
@@ -345,8 +348,7 @@ namespace CameraFreeMinimap
             // Resize the created element using the given height and width, and it is dependent on the size of the Minimap width and height
             Vector2 MinimapSize = minimapManager.MinimapImage.GetComponent<RectTransform>().sizeDelta;
             elementImage.GetComponent<RectTransform>().sizeDelta = new Vector2(MinimapSize.x * (widthPercentage / 100), MinimapSize.y * (heightPercentage / 100));
-            elementImage.GetComponent<RectTransform>().localScale = Vector3.one;
-            minimapCanvasTransform.localScale = Vector3.one;
+            minimapCanvasTransform.localScale = Vector3.one;    
         }
         protected void UpdateElementOffset()
         {

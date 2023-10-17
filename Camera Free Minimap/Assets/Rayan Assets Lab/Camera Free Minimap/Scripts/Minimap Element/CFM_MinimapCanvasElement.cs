@@ -120,12 +120,13 @@ namespace CameraFreeMinimap
         }
         #endregion
 
-#if UNITY_EDITOR
+
         // EnsureAlignmentWithWorldElement: This function checks if the canvas element is correctly aligned with its associated
         // world element by comparing their respective world transforms. If they do not match, it indicates a mismatch, and this
         // function ensures the canvas element's removal from the scene. The removal method varies based on whether the application
         // is running or in edit mode. In play mode, the canvas element is destroyed using the "Destroy" method to adhere to runtime
         // behavior. In edit mode, the "DestroyImmediate" method is used for immediate removal, accommodating design-time adjustments.
+#if UNITY_EDITOR
         public void EnsureAlignmentWithWorldElement()
         {
 
@@ -141,10 +142,10 @@ namespace CameraFreeMinimap
                 else
                     DestroyImmediate(gameObject); // Destroy the canvas element immediately in edit mode.
             }
-        }
+        } 
+#endif
     }
 }
 
-#endif
     
 

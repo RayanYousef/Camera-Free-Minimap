@@ -18,16 +18,15 @@ namespace CameraFreeMinimap
 
 
         #region Unity
-        protected void Start()
-        {
-            SetWorldCenterPosition();
-            SetMinimapCenterPosition();
-        }
 
         // Override the FixedUpdate method from the base class.
         protected override void FixedUpdate()
         {
             base.FixedUpdate();
+
+            SetWorldCenterPosition();
+            SetMinimapCenterPosition();
+
             FollowTarget();
         }
         #endregion
@@ -48,7 +47,7 @@ namespace CameraFreeMinimap
         private void SetMinimapCenterPosition()
         {
             // Set the center of the minimap.
-            minimapCenterPos = minimapImage.rectTransform.position;
+            minimapCenterPos = minimapImage.rectTransform.parent.position;
         }
 
         private void FollowTarget()
