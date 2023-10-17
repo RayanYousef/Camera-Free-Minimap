@@ -6,10 +6,7 @@ https://www.youtube.com/watch?v=BTr-0mluRkU
 <br/>
 
 ## Description
-"Camera Free Minimap" is a free Unity asset designed to simplify the creation of 
-dynamic and camera-independent minimaps. Say goodbye to the complexities 
-of setting up a second camera or manually updating your minimap. With 
-"Camera Free Minimap," you can effortlessly integrate your minimap images.<br/>
+"Camera Free Minimap" is a free Unity tool that makes creating minimaps a breeze. It eliminates the need for an extra camera, saving your game's performance. Setting up and using "Camera Free Minimap" is incredibly straightforward.<br/>
 **It Supports Procedurally Generated Maps.**
 
 ## KEY FEATURE:
