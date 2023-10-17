@@ -69,9 +69,10 @@ Knowing the world dimensions and the minimap dimensions the minimap now you can 
 ## Documentation Link:
 https://drive.google.com/file/d/1cMswtkUeIzoFR40DU381zZGATX-FvOhJ/view?usp=drive_link
 
-## I'm eager to continue working on and enhancing this asset, and I would greatly appreciate your feedback:
-Feel free to reach out to me through:
-Email: RayanYoussef1993@gmail.com 
+## Your Feedback is Appreciated
+I'm eager to continue working on and enhancing this asset, and I would greatly appreciate your feedback.<br/>
+Feel free to reach out to me through:<br/>
+Email: RayanYoussef1993@gmail.com <br/>
 Discord: rayan_1431
 
 
