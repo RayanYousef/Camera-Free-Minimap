@@ -84,8 +84,6 @@ namespace CameraFreeMinimap
 
         public bool IsStatic => isStaticElement;
 
-        public Color MinimapIconColour { get => minimapIconColour; set => minimapIconColour = value; }
-
         #endregion
 
         #region Unity

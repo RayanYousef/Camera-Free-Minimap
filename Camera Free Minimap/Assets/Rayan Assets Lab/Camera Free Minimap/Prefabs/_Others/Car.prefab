@@ -107,8 +107,8 @@ MonoBehaviour:
   xPositionOffset: 0
   yPositionOffset: 0
   rotationOffset: 90
-  heightPercentage: 5
-  widthPercentage: 10
+  heightPercentage: 4
+  widthPercentage: 8
 --- !u!114 &1635176333000997256
 MonoBehaviour:
   m_ObjectHideFlags: 0

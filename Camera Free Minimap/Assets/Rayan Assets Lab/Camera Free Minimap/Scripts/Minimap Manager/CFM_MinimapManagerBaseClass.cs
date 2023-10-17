@@ -144,13 +144,16 @@ namespace CameraFreeMinimap
         }
 
         // GetWorldBounds: This function retrieves the bounds of the game world by utilizing the worldSpriteRenderer.
-        protected void GetWorldBounds()
+        public void GetWorldBounds()
         {
+            if (worldSpriteRenderer == null)
+                return;
+
             worldSpriteRenderer.GetBounds(ref worldBounds);
         }
 
         // GetMinimapBounds: This function retrieves the bounds of the minimap within the canvas.
-        protected void GetMinimapBounds()
+        public void GetMinimapBounds()
         {
             if (minimapImage == null)
                 return;

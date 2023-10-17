@@ -14,7 +14,7 @@ namespace CameraFreeMinimap
         public void SetCarColor (Color carColour)
         {
             GetComponent<MeshRenderer>().material.color = carColour;
-            GetComponent<CFM_MinimapWorldElement>().MinimapIconColour = carColour;
+            GetComponent<CFM_MinimapWorldElement>().SetElementColour(carColour);
             speed = Random.Range(8, 12f);
         }
 
