@@ -65,6 +65,7 @@ essential for determining the position of various elements within the minimap.
 Using the corners of any UI elements you can determine its dimensions, with that we can calculate the dimensions of the minimap in the UI.<br/>
 Knowing the world dimensions and the minimap dimensions the minimap now you can determine the position of the UI elements on the minimap!
 
-
+## Documentation Link:
+https://drive.google.com/file/d/1cMswtkUeIzoFR40DU381zZGATX-FvOhJ/view?usp=drive_link
 
 ## Feel free to utilize the asset and customize the code to perfectly align with your specific requirements.
