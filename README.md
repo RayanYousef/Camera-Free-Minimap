@@ -7,7 +7,7 @@
 dynamic and camera-independent minimaps. Say goodbye to the complexities 
 of setting up a second camera or manually updating your minimap. With 
 "Camera Free Minimap," you can effortlessly integrate your minimap images.
-### It Supports Procedurally Generated Maps.
+**It Supports Procedurally Generated Maps.**
 
 ## KEY FEATURE:
 ### Single Camera Usage: 
