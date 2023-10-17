@@ -104,6 +104,7 @@ namespace CameraFreeMinimap
             if (minimapCanvasTransform != null)
                 minimapCanvasTransform.gameObject.SetActive(true);
 
+            UpdateElementSize();
             UpdateElementTransformOnMinimap();
 
 #if UNITY_EDITOR
@@ -340,6 +341,9 @@ namespace CameraFreeMinimap
         protected void UpdateElementSize()
         {
             if (minimapManager == null) 
+                return;
+
+            if (minimapCanvasTransform == null)
                 return;
 
             // Get the UI Image

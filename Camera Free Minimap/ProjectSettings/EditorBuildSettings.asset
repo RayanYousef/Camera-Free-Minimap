@@ -6,6 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Rayan Assets Lab/Camera Free Minimap/Scenes/Demo Procedurally Generated
+      Level.unity
+    guid: a61bd8a49ef1c9a40992ac6b5ed2f7f2
+  - enabled: 1
     path: Assets/Rayan Assets Lab/Camera Free Minimap/Scenes/Demo Follow Target Minimap.unity
     guid: a2211544c6a3e2745bd2ebda3596bb78
+  - enabled: 1
+    path: Assets/Rayan Assets Lab/Camera Free Minimap/Scenes/Demo Static.unity
+    guid: 5eb326beb13705e46890c905ba6ee292
   m_configObjects: {}

@@ -418,7 +418,7 @@ MonoBehaviour:
   xPositionOffset: 0
   yPositionOffset: 0
   rotationOffset: 0
-  heightPercentage: 10.5
+  heightPercentage: 10
   widthPercentage: 1
 --- !u!1 &3738526166253112525
 GameObject:
@@ -540,7 +540,7 @@ MonoBehaviour:
   xPositionOffset: 0
   yPositionOffset: 0
   rotationOffset: 0
-  heightPercentage: 10.5
+  heightPercentage: 10
   widthPercentage: 1
 --- !u!1 &3738526167086809403
 GameObject:
